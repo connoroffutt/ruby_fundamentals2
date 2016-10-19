@@ -17,3 +17,6 @@ students.each do |x, y|
 
     puts "#{x} increased in size to #{increase}"
 end
+
+students.delete(:cohort2)
+  puts students
