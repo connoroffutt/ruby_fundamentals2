@@ -20,3 +20,9 @@ end
 
 students.delete(:cohort2)
   puts students
+
+total = 0
+students.each do |x, y|
+  total = y + total
+end
+  puts "the total number of students in the remaining cohorts is " + total.to_s
