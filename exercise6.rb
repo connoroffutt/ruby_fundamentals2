@@ -20,3 +20,7 @@ if grocery_list.include?("bananas") == true
 
 
   puts "The second item on the grocery list is " + grocery_list[1].to_s
+
+grocery_list.sort.each do |x|
+  puts "* " + x
+end
