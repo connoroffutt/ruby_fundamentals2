@@ -24,3 +24,7 @@ if grocery_list.include?("bananas") == true
 grocery_list.sort.each do |x|
   puts "* " + x
 end
+
+grocery_list.delete_at(3)
+  puts grocery_list
+  
