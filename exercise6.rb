@@ -17,3 +17,6 @@ if grocery_list.include?("bananas") == true
   else
     puts "You dont need any Bananas."
   end
+
+
+  puts "The second item on the grocery list is " + grocery_list[1].to_s
